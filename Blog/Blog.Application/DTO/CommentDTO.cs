@@ -8,5 +8,8 @@ namespace Blog.Application.DTO
 {
     public class CommentDTO
     {
+        public int CommentId { get; set; }
+        public string Comment { get; set; } = String.Empty;
+        public int BlogId { get; set; }
     }
 }
