@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Blog.Infra.Data.Entity
 {
-    internal class BlogPostEntity
+    public class BlogPostEntity
     {
     }
 }

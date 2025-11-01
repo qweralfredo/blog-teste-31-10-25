@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Blog.Application.Mapper
 {
-    internal class BlogPostMapper
+    public class BlogPostMapper
     {
     }
 }

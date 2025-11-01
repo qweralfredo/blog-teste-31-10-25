@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Blog.Domain
 {
-    internal class BlogPost
+    public class BlogPost
     {
     }
 }

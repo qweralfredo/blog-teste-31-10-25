@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Blog.Application.Extensions
 {
-    internal class ServiceExtensions
+    public class ServiceExtensions
     {
     }
 }

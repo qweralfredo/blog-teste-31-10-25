@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Blog.Service.Interface
 {
-    internal class IBlogPostService
+    public class IBlogPostService
     {
     }
 }

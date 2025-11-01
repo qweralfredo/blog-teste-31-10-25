@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Blog.Application.Mapper
 {
-    internal class CommentMapper
+    public class CommentMapper
     {
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Blog.Application.DTO
 {
-    internal class CommentDTO
+    public class CommentDTO
     {
     }
 }

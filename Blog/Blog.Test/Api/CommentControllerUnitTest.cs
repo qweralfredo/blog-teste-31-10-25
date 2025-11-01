@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Blog.Test.Api
 {
-    internal class CommentControllerUnitTest
+    public class CommentControllerUnitTest
     {
     }
 }

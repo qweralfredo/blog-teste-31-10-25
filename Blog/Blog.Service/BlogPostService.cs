@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Blog.Service
 {
-    internal class BlogPostService
+    public class BlogPostService
     {
     }
 }

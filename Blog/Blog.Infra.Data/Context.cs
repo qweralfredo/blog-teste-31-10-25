@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Blog.Infra.Data
 {
-    internal class Context
+    public class Context
     {
     }
 }

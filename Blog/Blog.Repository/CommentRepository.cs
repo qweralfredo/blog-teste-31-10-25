@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Blog.Repository
 {
-    internal class CommentRepository
+    public class CommentRepository
     {
     }
 }
