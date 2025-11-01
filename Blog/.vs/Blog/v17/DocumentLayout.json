@@ -1,12 +1,478 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A36F8ABF-D3F3-4DDF-A7ED-6B92A87F1C22}|Blog.Infra.Data\\Blog.Infra.Data.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.infra.data\\entity\\blogpostentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36F8ABF-D3F3-4DDF-A7ED-6B92A87F1C22}|Blog.Infra.Data\\Blog.Infra.Data.csproj|solutionrelative:blog.infra.data\\entity\\blogpostentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36F8ABF-D3F3-4DDF-A7ED-6B92A87F1C22}|Blog.Infra.Data\\Blog.Infra.Data.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.infra.data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36F8ABF-D3F3-4DDF-A7ED-6B92A87F1C22}|Blog.Infra.Data\\Blog.Infra.Data.csproj|solutionrelative:blog.infra.data\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A36F8ABF-D3F3-4DDF-A7ED-6B92A87F1C22}|Blog.Infra.Data\\Blog.Infra.Data.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.infra.data\\entity\\commententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A36F8ABF-D3F3-4DDF-A7ED-6B92A87F1C22}|Blog.Infra.Data\\Blog.Infra.Data.csproj|solutionrelative:blog.infra.data\\entity\\commententity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF28EED-0ED2-4F7B-9643-6C5EE251C04D}|Blog.Domain\\Blog.Domain.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF28EED-0ED2-4F7B-9643-6C5EE251C04D}|Blog.Domain\\Blog.Domain.csproj|solutionrelative:blog.domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1CF28EED-0ED2-4F7B-9643-6C5EE251C04D}|Blog.Domain\\Blog.Domain.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.domain\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1CF28EED-0ED2-4F7B-9643-6C5EE251C04D}|Blog.Domain\\Blog.Domain.csproj|solutionrelative:blog.domain\\comments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2128186D-C8BE-47F7-8D2B-AAF8BCCB28B4}|Blog.Test\\Blog.Test.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.test\\repository\\blogrepositoryunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2128186D-C8BE-47F7-8D2B-AAF8BCCB28B4}|Blog.Test\\Blog.Test.csproj|solutionrelative:blog.test\\repository\\blogrepositoryunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CAE17-D362-487D-9D28-021C22C686B6}|Blog.Repository\\Blog.Repository.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.repository\\interface\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CAE17-D362-487D-9D28-021C22C686B6}|Blog.Repository\\Blog.Repository.csproj|solutionrelative:blog.repository\\interface\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2128186D-C8BE-47F7-8D2B-AAF8BCCB28B4}|Blog.Test\\Blog.Test.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.test\\api\\blogpostcontrollerunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2128186D-C8BE-47F7-8D2B-AAF8BCCB28B4}|Blog.Test\\Blog.Test.csproj|solutionrelative:blog.test\\api\\blogpostcontrollerunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2128186D-C8BE-47F7-8D2B-AAF8BCCB28B4}|Blog.Test\\Blog.Test.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.test\\repository\\commentrepositoryunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2128186D-C8BE-47F7-8D2B-AAF8BCCB28B4}|Blog.Test\\Blog.Test.csproj|solutionrelative:blog.test\\repository\\commentrepositoryunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B0F7CD-0F7B-4509-863E-5FE38FFDDE07}|Blog.Api.Rest\\Blog.Api.Rest.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.api.rest\\controllers\\blogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B0F7CD-0F7B-4509-863E-5FE38FFDDE07}|Blog.Api.Rest\\Blog.Api.Rest.csproj|solutionrelative:blog.api.rest\\controllers\\blogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34286BB-593C-4C86-AD09-2E6184F87DE7}|Blog.Application\\Blog.Application.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.application\\dto\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B34286BB-593C-4C86-AD09-2E6184F87DE7}|Blog.Application\\Blog.Application.csproj|solutionrelative:blog.application\\dto\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34286BB-593C-4C86-AD09-2E6184F87DE7}|Blog.Application\\Blog.Application.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.application\\dto\\blogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B34286BB-593C-4C86-AD09-2E6184F87DE7}|Blog.Application\\Blog.Application.csproj|solutionrelative:blog.application\\dto\\blogpostdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2128186D-C8BE-47F7-8D2B-AAF8BCCB28B4}|Blog.Test\\Blog.Test.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.test\\service\\blogpostserviceunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2128186D-C8BE-47F7-8D2B-AAF8BCCB28B4}|Blog.Test\\Blog.Test.csproj|solutionrelative:blog.test\\service\\blogpostserviceunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34286BB-593C-4C86-AD09-2E6184F87DE7}|Blog.Application\\Blog.Application.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.application\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B34286BB-593C-4C86-AD09-2E6184F87DE7}|Blog.Application\\Blog.Application.csproj|solutionrelative:blog.application\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34286BB-593C-4C86-AD09-2E6184F87DE7}|Blog.Application\\Blog.Application.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.application\\mapper\\blogpostmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B34286BB-593C-4C86-AD09-2E6184F87DE7}|Blog.Application\\Blog.Application.csproj|solutionrelative:blog.application\\mapper\\blogpostmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34286BB-593C-4C86-AD09-2E6184F87DE7}|Blog.Application\\Blog.Application.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.application\\mapper\\commentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B34286BB-593C-4C86-AD09-2E6184F87DE7}|Blog.Application\\Blog.Application.csproj|solutionrelative:blog.application\\mapper\\commentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34286BB-593C-4C86-AD09-2E6184F87DE7}|Blog.Application\\Blog.Application.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.application\\mapper\\interface\\icommentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B34286BB-593C-4C86-AD09-2E6184F87DE7}|Blog.Application\\Blog.Application.csproj|solutionrelative:blog.application\\mapper\\interface\\icommentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34286BB-593C-4C86-AD09-2E6184F87DE7}|Blog.Application\\Blog.Application.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.application\\mapper\\interface\\iblogpostmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B34286BB-593C-4C86-AD09-2E6184F87DE7}|Blog.Application\\Blog.Application.csproj|solutionrelative:blog.application\\mapper\\interface\\iblogpostmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E5FC70-4FE7-4BC6-BE29-0B7B802FBA2D}|Blog.Service\\Blog.Service.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.service\\blogpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E5FC70-4FE7-4BC6-BE29-0B7B802FBA2D}|Blog.Service\\Blog.Service.csproj|solutionrelative:blog.service\\blogpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E5FC70-4FE7-4BC6-BE29-0B7B802FBA2D}|Blog.Service\\Blog.Service.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.service\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E5FC70-4FE7-4BC6-BE29-0B7B802FBA2D}|Blog.Service\\Blog.Service.csproj|solutionrelative:blog.service\\commentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E5FC70-4FE7-4BC6-BE29-0B7B802FBA2D}|Blog.Service\\Blog.Service.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.service\\interface\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E5FC70-4FE7-4BC6-BE29-0B7B802FBA2D}|Blog.Service\\Blog.Service.csproj|solutionrelative:blog.service\\interface\\icommentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92E5FC70-4FE7-4BC6-BE29-0B7B802FBA2D}|Blog.Service\\Blog.Service.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.service\\interface\\iblogpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{92E5FC70-4FE7-4BC6-BE29-0B7B802FBA2D}|Blog.Service\\Blog.Service.csproj|solutionrelative:blog.service\\interface\\iblogpostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CAE17-D362-487D-9D28-021C22C686B6}|Blog.Repository\\Blog.Repository.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.repository\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CAE17-D362-487D-9D28-021C22C686B6}|Blog.Repository\\Blog.Repository.csproj|solutionrelative:blog.repository\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CAE17-D362-487D-9D28-021C22C686B6}|Blog.Repository\\Blog.Repository.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CAE17-D362-487D-9D28-021C22C686B6}|Blog.Repository\\Blog.Repository.csproj|solutionrelative:blog.repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B8CAE17-D362-487D-9D28-021C22C686B6}|Blog.Repository\\Blog.Repository.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.repository\\interface\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B8CAE17-D362-487D-9D28-021C22C686B6}|Blog.Repository\\Blog.Repository.csproj|solutionrelative:blog.repository\\interface\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\entrevista\\blog-teste-31-10-25\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2128186D-C8BE-47F7-8D2B-AAF8BCCB28B4}|Blog.Test\\Blog.Test.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.test\\service\\commentserviceunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2128186D-C8BE-47F7-8D2B-AAF8BCCB28B4}|Blog.Test\\Blog.Test.csproj|solutionrelative:blog.test\\service\\commentserviceunittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Comments.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Domain\\Comments.cs",
+              "RelativeDocumentMoniker": "Blog.Domain\\Comments.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Domain\\Comments.cs",
+              "RelativeToolTip": "Blog.Domain\\Comments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:11:55.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Infra.Data\\Context.cs",
+              "RelativeDocumentMoniker": "Blog.Infra.Data\\Context.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Infra.Data\\Context.cs",
+              "RelativeToolTip": "Blog.Infra.Data\\Context.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:14:00.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommentEntity.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Infra.Data\\Entity\\CommentEntity.cs",
+              "RelativeDocumentMoniker": "Blog.Infra.Data\\Entity\\CommentEntity.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Infra.Data\\Entity\\CommentEntity.cs",
+              "RelativeToolTip": "Blog.Infra.Data\\Entity\\CommentEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:13:41.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BlogPost.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Domain\\BlogPost.cs",
+              "RelativeDocumentMoniker": "Blog.Domain\\BlogPost.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Domain\\BlogPost.cs",
+              "RelativeToolTip": "Blog.Domain\\BlogPost.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:11:36.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlogPostEntity.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Infra.Data\\Entity\\BlogPostEntity.cs",
+              "RelativeDocumentMoniker": "Blog.Infra.Data\\Entity\\BlogPostEntity.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Infra.Data\\Entity\\BlogPostEntity.cs",
+              "RelativeToolTip": "Blog.Infra.Data\\Entity\\BlogPostEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:13:23.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BlogRepositoryUnitTest.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Test\\Repository\\BlogRepositoryUnitTest.cs",
+              "RelativeDocumentMoniker": "Blog.Test\\Repository\\BlogRepositoryUnitTest.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Test\\Repository\\BlogRepositoryUnitTest.cs",
+              "RelativeToolTip": "Blog.Test\\Repository\\BlogRepositoryUnitTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:27:42.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IBlogPostRepository.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Repository\\Interface\\IBlogPostRepository.cs",
+              "RelativeDocumentMoniker": "Blog.Repository\\Interface\\IBlogPostRepository.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Repository\\Interface\\IBlogPostRepository.cs",
+              "RelativeToolTip": "Blog.Repository\\Interface\\IBlogPostRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:14:57.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BlogPostControllerUnitTest.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Test\\Api\\BlogPostControllerUnitTest.cs",
+              "RelativeDocumentMoniker": "Blog.Test\\Api\\BlogPostControllerUnitTest.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Test\\Api\\BlogPostControllerUnitTest.cs",
+              "RelativeToolTip": "Blog.Test\\Api\\BlogPostControllerUnitTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:22:15.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CommentRepositoryUnitTest.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Test\\Repository\\CommentRepositoryUnitTest.cs",
+              "RelativeDocumentMoniker": "Blog.Test\\Repository\\CommentRepositoryUnitTest.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Test\\Repository\\CommentRepositoryUnitTest.cs",
+              "RelativeToolTip": "Blog.Test\\Repository\\CommentRepositoryUnitTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:28:04.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "BlogPostController.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Api.Rest\\Controllers\\BlogPostController.cs",
+              "RelativeDocumentMoniker": "Blog.Api.Rest\\Controllers\\BlogPostController.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Api.Rest\\Controllers\\BlogPostController.cs",
+              "RelativeToolTip": "Blog.Api.Rest\\Controllers\\BlogPostController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:26:03.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CommentDTO.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Application\\DTO\\CommentDTO.cs",
+              "RelativeDocumentMoniker": "Blog.Application\\DTO\\CommentDTO.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Application\\DTO\\CommentDTO.cs",
+              "RelativeToolTip": "Blog.Application\\DTO\\CommentDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:25:10.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BlogPostDTO.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Application\\DTO\\BlogPostDTO.cs",
+              "RelativeDocumentMoniker": "Blog.Application\\DTO\\BlogPostDTO.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Application\\DTO\\BlogPostDTO.cs",
+              "RelativeToolTip": "Blog.Application\\DTO\\BlogPostDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:25:00.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BlogPostServiceUnitTest.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Test\\Service\\BlogPostServiceUnitTest.cs",
+              "RelativeDocumentMoniker": "Blog.Test\\Service\\BlogPostServiceUnitTest.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Test\\Service\\BlogPostServiceUnitTest.cs",
+              "RelativeToolTip": "Blog.Test\\Service\\BlogPostServiceUnitTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:21:35.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Application\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Blog.Application\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Application\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "Blog.Application\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:19:53.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BlogPostMapper.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Application\\Mapper\\BlogPostMapper.cs",
+              "RelativeDocumentMoniker": "Blog.Application\\Mapper\\BlogPostMapper.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Application\\Mapper\\BlogPostMapper.cs",
+              "RelativeToolTip": "Blog.Application\\Mapper\\BlogPostMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:19:01.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CommentMapper.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Application\\Mapper\\CommentMapper.cs",
+              "RelativeDocumentMoniker": "Blog.Application\\Mapper\\CommentMapper.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Application\\Mapper\\CommentMapper.cs",
+              "RelativeToolTip": "Blog.Application\\Mapper\\CommentMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:18:47.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ICommentMapper.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Application\\Mapper\\Interface\\ICommentMapper.cs",
+              "RelativeDocumentMoniker": "Blog.Application\\Mapper\\Interface\\ICommentMapper.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Application\\Mapper\\Interface\\ICommentMapper.cs",
+              "RelativeToolTip": "Blog.Application\\Mapper\\Interface\\ICommentMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:18:32.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IBlogPostMapper.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Application\\Mapper\\Interface\\IBlogPostMapper.cs",
+              "RelativeDocumentMoniker": "Blog.Application\\Mapper\\Interface\\IBlogPostMapper.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Application\\Mapper\\Interface\\IBlogPostMapper.cs",
+              "RelativeToolTip": "Blog.Application\\Mapper\\Interface\\IBlogPostMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:18:03.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "BlogPostService.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Service\\BlogPostService.cs",
+              "RelativeDocumentMoniker": "Blog.Service\\BlogPostService.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Service\\BlogPostService.cs",
+              "RelativeToolTip": "Blog.Service\\BlogPostService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:17:06.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CommentService.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Service\\CommentService.cs",
+              "RelativeDocumentMoniker": "Blog.Service\\CommentService.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Service\\CommentService.cs",
+              "RelativeToolTip": "Blog.Service\\CommentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:16:51.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICommentService.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Service\\Interface\\ICommentService.cs",
+              "RelativeDocumentMoniker": "Blog.Service\\Interface\\ICommentService.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Service\\Interface\\ICommentService.cs",
+              "RelativeToolTip": "Blog.Service\\Interface\\ICommentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:16:35.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IBlogPostService.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Service\\Interface\\IBlogPostService.cs",
+              "RelativeDocumentMoniker": "Blog.Service\\Interface\\IBlogPostService.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Service\\Interface\\IBlogPostService.cs",
+              "RelativeToolTip": "Blog.Service\\Interface\\IBlogPostService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:16:21.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BlogPostRepository.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Repository\\BlogPostRepository.cs",
+              "RelativeDocumentMoniker": "Blog.Repository\\BlogPostRepository.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Repository\\BlogPostRepository.cs",
+              "RelativeToolTip": "Blog.Repository\\BlogPostRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:15:45.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CommentRepository.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Repository\\CommentRepository.cs",
+              "RelativeDocumentMoniker": "Blog.Repository\\CommentRepository.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Repository\\CommentRepository.cs",
+              "RelativeToolTip": "Blog.Repository\\CommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:15:31.403Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ICommentRepository.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Repository\\Interface\\ICommentRepository.cs",
+              "RelativeDocumentMoniker": "Blog.Repository\\Interface\\ICommentRepository.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Repository\\Interface\\ICommentRepository.cs",
+              "RelativeToolTip": "Blog.Repository\\Interface\\ICommentRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:15:15.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\.gitignore",
+              "RelativeDocumentMoniker": "..\\.gitignore",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\.gitignore",
+              "RelativeToolTip": "..\\.gitignore",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-11-01T03:09:36.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CommentServiceUnitTest.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Test\\Service\\CommentServiceUnitTest.cs",
+              "RelativeDocumentMoniker": "Blog.Test\\Service\\CommentServiceUnitTest.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Test\\Service\\CommentServiceUnitTest.cs",
+              "RelativeToolTip": "Blog.Test\\Service\\CommentServiceUnitTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T03:08:30.701Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
