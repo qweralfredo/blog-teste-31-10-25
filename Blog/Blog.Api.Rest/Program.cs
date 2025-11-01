@@ -8,22 +8,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllers();
 
-// Configurar Entity Framework
-builder.Services.AddDbContext<Context>(options =>
-{
-    // Para desenvolvimento, usar InMemory Database
-    if (builder.Environment.IsDevelopment())
-    {
-        options.UseInMemoryDatabase("BlogDatabase");
-    }
-    else
-    {
-        // Para produção, você pode configurar SQL Server ou outro provedor
-        // options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-        options.UseInMemoryDatabase("BlogDatabase"); // Mantendo InMemory por enquanto
-    }
-});
-
 // Registrar serviços da aplicação
 builder.Services.AddApplicationServices();
 
