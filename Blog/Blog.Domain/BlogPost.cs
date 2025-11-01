@@ -11,7 +11,7 @@ namespace Blog.Domain
         public int Id { get; private set; }
         public string Title { get; private set; }
         public string Content { get; private set; }
-        public List<Comments> Comments { get; private set; }
+        public List<Comment> Comments { get; private set; }
         public BlogPost(int id, string title, string content)
         {
             Id = id;
@@ -19,11 +19,11 @@ namespace Blog.Domain
             Content = content;
         }
 
-        public void AddComment(Comments comment)
+        public void AddComment(Comment comment)
         {
             if (Comments == null)
             {
-                Comments = new List<Comments>();
+                Comments = new List<Comment>();
             }
             Comments.Add(comment);
         }
