@@ -8,5 +8,6 @@ namespace Blog.Test.Api
 {
     public class BlogPostControllerUnitTest
     {
+        
     }
 }

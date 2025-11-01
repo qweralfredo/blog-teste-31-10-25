@@ -1,6 +1,6 @@
-﻿namespace Blog.Test
+﻿namespace Blog.Test.Service
 {
-    public class UnitTest1
+    public class CommentServiceUnitTest
     {
         [Fact]
         public void Test1()

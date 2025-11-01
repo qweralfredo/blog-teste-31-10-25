@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Blog.Repository.Interface
 {
-    internal interface IBlogPostRepository
+    public interface IBlogPostRepository
     {
     }
 }

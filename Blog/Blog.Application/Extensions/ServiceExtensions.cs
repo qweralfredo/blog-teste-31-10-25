@@ -3,10 +3,33 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Blog.Application.Mapper;
+using Blog.Application.Mapper.Interface;
+using Blog.Repository;
+using Blog.Repository.Interface;
+using Blog.Service;
+using Blog.Service.Interface;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Blog.Application.Extensions
 {
-    public class ServiceExtensions
+    public static class ServiceExtensions
     {
+        public static IServiceCollection AddApplicationServices(this IServiceCollection services)
+        {
+            // Registrar Repositories
+            services.AddScoped<IBlogPostRepository, BlogPostRepository>();
+            services.AddScoped<ICommentRepository, CommentRepository>();
+
+            // Registrar Services
+            services.AddScoped<IBlogPostService, BlogPostService>();
+            services.AddScoped<ICommentService, CommentService>();
+
+            // Registrar Mappers
+            services.AddScoped<IBlogPostMapper, BlogPostMapper>();
+            services.AddScoped<ICommentMapper, CommentMapper>();
+
+            return services;
+        }
     }
 }
