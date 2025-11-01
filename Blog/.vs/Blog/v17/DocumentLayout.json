@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B0F7CD-0F7B-4509-863E-5FE38FFDDE07}|Blog.Api.Rest\\Blog.Api.Rest.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.api.rest\\controllers\\blogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B0F7CD-0F7B-4509-863E-5FE38FFDDE07}|Blog.Api.Rest\\Blog.Api.Rest.csproj|solutionrelative:blog.api.rest\\controllers\\blogpostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9B0F7CD-0F7B-4509-863E-5FE38FFDDE07}|Blog.Api.Rest\\Blog.Api.Rest.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.api.rest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9B0F7CD-0F7B-4509-863E-5FE38FFDDE07}|Blog.Api.Rest\\Blog.Api.Rest.csproj|solutionrelative:blog.api.rest\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B34286BB-593C-4C86-AD09-2E6184F87DE7}|Blog.Application\\Blog.Application.csproj|c:\\entrevista\\blog-teste-31-10-25\\blog\\blog.application\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B34286BB-593C-4C86-AD09-2E6184F87DE7}|Blog.Application\\Blog.Application.csproj|solutionrelative:blog.application\\extensions\\serviceextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlogPostController.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Api.Rest\\Controllers\\BlogPostController.cs",
+              "RelativeDocumentMoniker": "Blog.Api.Rest\\Controllers\\BlogPostController.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Api.Rest\\Controllers\\BlogPostController.cs",
+              "RelativeToolTip": "Blog.Api.Rest\\Controllers\\BlogPostController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T13:06:13.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Api.Rest\\Program.cs",
+              "RelativeDocumentMoniker": "Blog.Api.Rest\\Program.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Api.Rest\\Program.cs",
+              "RelativeToolTip": "Blog.Api.Rest\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:51:44.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServiceExtensions.cs",
+              "DocumentMoniker": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Application\\Extensions\\ServiceExtensions.cs",
+              "RelativeDocumentMoniker": "Blog.Application\\Extensions\\ServiceExtensions.cs",
+              "ToolTip": "C:\\entrevista\\blog-teste-31-10-25\\Blog\\Blog.Application\\Extensions\\ServiceExtensions.cs",
+              "RelativeToolTip": "Blog.Application\\Extensions\\ServiceExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-01T12:40:14.739Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
