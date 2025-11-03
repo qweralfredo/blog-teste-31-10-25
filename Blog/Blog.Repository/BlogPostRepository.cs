@@ -30,15 +30,25 @@ namespace Blog.Repository
 
         public async Task<List<BlogPost>> GetAllBlogPostsAsync()
         {
-            var blogPosts = await context.BlogPosts.Select(bp => new BlogPost(bp.Id, bp.Title, bp.Content)).ToListAsync();
+            var blogPosts = await context.BlogPosts
+                .Include(bp => bp.Comments)
+                .Select(bp => new BlogPost(
+                    bp.Id,
+                    bp.Title,
+                    bp.Content,
+                    bp.Comments.Select(x => new Comment(x.Id, x.Content, x.BlogPostId)).ToList()
+                ))
+                .ToListAsync();
             return blogPosts;
         }
 
         public Task<BlogPost?> GetBlogPostByIdAsync(int id)
-        {
+        { 
             return context.BlogPosts
                 .Where(bp => bp.Id == id)
-                .Select(bp => new BlogPost(bp.Id, bp.Title, bp.Content))
+                .Include(bp => bp.Comments)
+                .Select(bp => new BlogPost(bp.Id, bp.Title, bp.Content,
+                    bp.Comments.Select(x => new Comment(x.Id, x.Content, x.BlogPostId)).ToList()))
                 .FirstOrDefaultAsync();
         }
     }

@@ -10,8 +10,13 @@ namespace Blog.Application.Mapper.Interface
 {
     public interface ICommentMapper
     {
-        public Comment MapToDomain(Comment comment);
+        public Comment ToDomain(CommentDTO comment);
 
-        public CommentDTO MapToDTO(Comment comment);
+        public CommentDTO ToDTO(Comment comment);
+
+
+        public List<Comment> ToDomain(List<CommentDTO> comment);
+
+        public List<CommentDTO> ToDTO(List<Comment> comments);
     }
 }

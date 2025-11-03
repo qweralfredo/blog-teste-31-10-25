@@ -4,16 +4,10 @@ using Blog.Infra.Data.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
 
-var builder = WebApplication.CreateBuilder(args);
+var builder = WebApplication.CreateBuilder(args); 
 
-// Add services to the container.
-builder.Services.AddControllers();
-
- 
-// Registrar serviços da aplicação
-builder.Services.AddApplicationServices();
-
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
+builder.Services.AddControllers();  
+builder.Services.AddApplicationServices(); 
 builder.Services.AddOpenApi();
 builder.Services.AddSwaggerGen(options =>
 {
@@ -22,14 +16,9 @@ builder.Services.AddSwaggerGen(options =>
         Title = "Blog API", 
         Version = "v1",
         Description = "API para gerenciamento de blog",
-        Contact = new OpenApiContact
-        {
-            Name = "Equipe de Desenvolvimento",
-            Email = "dev@blog.com"
-        }
+       
     });
-    
-    // Incluir comentários XML se disponível
+     
     var xmlFile = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
     if (File.Exists(xmlPath))
@@ -38,12 +27,8 @@ builder.Services.AddSwaggerGen(options =>
     }
 });
 
-var app = builder.Build();
-
-// Aplicar seed de dados
-await app.Services.EnsureDatabaseSeededAsync();
-
-// Configure the HTTP request pipeline.
+var app = builder.Build(); 
+await app.Services.EnsureDatabaseSeededAsync(); 
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();

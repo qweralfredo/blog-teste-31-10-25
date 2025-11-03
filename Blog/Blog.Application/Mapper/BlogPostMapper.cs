@@ -13,13 +13,23 @@ namespace Blog.Application.Mapper
     {
         public BlogPost ToDomain(BlogPostDTO blogPostDTO)
         {
-            var blogPost = new BlogPost(blogPostDTO.BlogId, blogPostDTO.Title, blogPostDTO.Content);
+            var blogPost = new BlogPost(blogPostDTO.BlogId, blogPostDTO.Title, blogPostDTO.Content, new List<Comment>());
             foreach (var commentDTO in blogPostDTO.Comments)
             {
                 var comment = new Comment(commentDTO.CommentId, commentDTO.Comment, blogPost.Id);
                 blogPost.AddComment(comment);
             }
             return blogPost;
+        }
+
+        public List<BlogPost> ToDomain(List<BlogPostDTO> blogPostlist)
+        {
+            var domainList = new List<BlogPost>();
+            foreach (var blogPostDTO in blogPostlist)
+            {
+                domainList.Add(ToDomain(blogPostDTO));
+            }
+            return domainList;
         }
 
         public BlogPostDTO ToDTO(BlogPost blogPost)
@@ -37,6 +47,16 @@ namespace Blog.Application.Mapper
                 }).ToList()
             };
             return blogPostDTO;
+        }
+
+        public List<BlogPostDTO> ToDTO(List<BlogPost> blogPostlist)
+        {
+            var dtoList = new List<BlogPostDTO>();
+            foreach (var blogPost in blogPostlist)
+            {
+                dtoList.Add(ToDTO(blogPost));
+            }
+            return dtoList;
         }
     }
 }

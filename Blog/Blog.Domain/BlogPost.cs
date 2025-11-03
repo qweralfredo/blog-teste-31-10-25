@@ -11,13 +11,15 @@ namespace Blog.Domain
         public int Id { get; private set; }
         public string Title { get; private set; }
         public string Content { get; private set; }
-        public List<Comment> Comments { get; private set; }
-        public BlogPost(int id, string title, string content)
+        public List<Comment> Comments { get; private set; } = new List<Comment>();
+        public BlogPost(int id, string title, string content, List<Comment> comments)
         {
             Id = id;
             Title = title;
             Content = content;
+            Comments = comments;
         }
+
 
         public void AddComment(Comment comment)
         {

@@ -20,7 +20,7 @@ namespace Blog.Repository
 
         public async Task  CreateCommentAsync(Comment comment)
         {
-           await  _context.Comments.AddAsync(new Infra.Data.Entity.CommentEntity
+            await  _context.Comments.AddAsync(new Infra.Data.Entity.CommentEntity
             {
                 BlogPostId = comment.BlogPostId,
                 Content = comment.Content

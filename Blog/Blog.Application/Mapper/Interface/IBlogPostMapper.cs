@@ -12,5 +12,7 @@ namespace Blog.Application.Mapper.Interface
     {
         public BlogPost ToDomain(BlogPostDTO blogPostDTO);
         public BlogPostDTO ToDTO(BlogPost blogPost);
+        public List<BlogPostDTO> ToDTO(List<BlogPost> blogPostlist);
+        public List<BlogPost> ToDomain(List<BlogPostDTO> blogPostlist);
     }
 }

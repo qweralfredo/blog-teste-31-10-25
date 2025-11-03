@@ -18,6 +18,13 @@ namespace Blog.Service
             this.blogPostRepository = blogPostRepository;
             this.commentRepository = commentRepository;
         }
+
+        public Task CreateComment(int blogPostId, Comment comment)
+        {
+            comment.SetBlogPostId(blogPostId);
+            return commentRepository.CreateCommentAsync(comment);
+        }
+
         public async Task CreatePost(BlogPost blogPost)
         {
             await blogPostRepository.CreateBlogPostAsync(blogPost);
@@ -35,9 +42,7 @@ namespace Blog.Service
 
         public async Task<BlogPost> GetPostById(int id)
         {
-            var post = await blogPostRepository.GetBlogPostByIdAsync(id);
-            if (post == null)
-                throw new InvalidOperationException($"BlogPost com id {id} não encontrado.");
+            var post = await blogPostRepository.GetBlogPostByIdAsync(id); 
             return post;
         }
     }

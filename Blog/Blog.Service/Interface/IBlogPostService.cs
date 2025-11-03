@@ -16,5 +16,7 @@ namespace Blog.Service.Interface
 
         public Task<List<Comment>> GetComments(int idBlogPostId);
 
+        public Task CreateComment(int blogPostId, Comment comment);
+
     }
 }

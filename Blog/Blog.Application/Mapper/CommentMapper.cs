@@ -11,12 +11,22 @@ namespace Blog.Application.Mapper
 {
     public class CommentMapper : ICommentMapper
     {
-        public Comment MapToDomain(Comment commentDTO)
+        public Comment ToDomain(CommentDTO commentDTO)
         {
-            return new Comment(commentDTO.Id, commentDTO.Content, commentDTO.BlogPostId);
+            return new Comment(commentDTO.CommentId, commentDTO.Comment, commentDTO.BlogId);
         }
 
-        public CommentDTO MapToDTO(Comment comment)
+        public List<Comment> ToDomain(List<CommentDTO> comment)
+        {
+            var listComments = new List<Comment>();
+            foreach (var commentDTO in comment)
+            {
+                listComments.Add(ToDomain(commentDTO));
+            }
+            return listComments;
+        }
+
+        public CommentDTO ToDTO(Comment comment)
         {
             return new CommentDTO
             {
@@ -24,6 +34,16 @@ namespace Blog.Application.Mapper
                 Comment = comment.Content,
                 BlogId = comment.BlogPostId
             };
+        }
+
+        public List<CommentDTO> ToDTO(List<Comment> comments)
+        {
+            var listCommentsDTO = new List<CommentDTO>();
+            foreach (var comment in comments)
+            {
+                listCommentsDTO.Add(ToDTO(comment));
+            }
+            return listCommentsDTO;
         }
     }
 }

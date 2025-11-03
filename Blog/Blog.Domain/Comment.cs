@@ -17,5 +17,10 @@ namespace Blog.Domain
             Content = content;
             BlogPostId = blogPostId;
         }
+
+        public void SetBlogPostId(int blogPostId)
+        {
+            BlogPostId = blogPostId;
+        }
     }
 }
